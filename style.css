@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    padding: 63px;
+    background-color: rgb(78, 135, 168);
+    font-size: 13px;
+}
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header ul li {
+    margin-right: 10px;
+    color: azure;
+
+}
+header ul li:hover{
+    color: blue;
+    transition: 1s;
+}
+.banco {
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    padding: 180px;
+    font-size: 30px;
+    
+}
+.banco h1{
+    color: rgb(51, 50, 50);
+    margin-bottom: 10px;
+}
+.banco input{
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-color: green;
+    color: green;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.banco input:hover{
+    cursor: pointer;
+    background-color: green;
+    border-color: white;
+    color: white;
+    transition: 1s;
+}
+.app{
+    background-color: aliceblue;
+    display: flex;
+    padding: 250px;
+    align-items: center;
+}
+.app img{
+    width: 300px;
+    margin-left: 30px;
+}
+.app p{
+    font-size: 30px;
+}
+.app input{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-color: green;
+    color: green;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.app input:hover{
+    background-color: green;
+    border-color: white;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.final {
+    padding: 200px;
+    background-color: aliceblue;
+}
+.final h2 span{
+    font-size: 25px;
+    font-size: 30px;
+    margin-left: 35%;
+}
+.final p{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+}
+.final input{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    margin-top: 60px;
+    color: blue;
+    border-color: blue;
+}
+.final input:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-color: white;
+    transition: 1s;
+}
+.final .line{
+    width: 79%;
+    margin-top: 27px;
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+.final img{
+    margin-left: 10%;
+    width: 650px;
+}
+.ultima {
+    padding: 190px;
+    background-image: url(img/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.ultima img{
+    width: 300px;
+    margin-right: 90px;
+}
+.ultima h2 span{
+    color: gold;
+}
+.ultima h2{
+    margin-bottom: 15px;
+}
+footer{
+    padding: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+
+}
+footer div img {
+    width: 300px;
+}
+footer #texto{
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    color: gray;
+}
+footer ul a li {
+    color: white;
+}
+footer ul a li:hover{
+    color: red;
+    transition: 0.7s;
+}
+
