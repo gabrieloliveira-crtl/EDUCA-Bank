@@ -1,171 +1,301 @@
+/* (*) usado para mudar a configuraçao geral do site */
 *{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+    margin: 0;/* zarando a marigin do site */
+    padding: 0;/* zerando o preenchimento*/
+    list-style: none;/* removendo os estilos de listas */
+    text-decoration: none; /* tirando a decoraçao do texto */
 }
+/* chamando o cabeçalho */
 header{
+    /* tamanho do cabeçalho */
     padding: 63px;
+    /* cor de fundo */
     background-color: rgb(78, 135, 168);
+    /* tamanho da fonte */
     font-size: 13px;
 }
+/* chamando as listas */
 header ul {
+    /* tornando elas flexiveis */
     display: flex;
+    /* justificando o conteudo */
     justify-content: flex-end;
 }
+/* chamando as linhas da listas */
 header ul li {
+    /* espaçamento entre as linhas */
     margin-right: 10px;
+    /* cor das linhas */
     color: azure;
 
 }
+/* colocando efeito ao passar o mouse nas linhas da lista */
 header ul li:hover{
+    /* trocada a cor da linha */
     color: blue;
+    /* transisao da troca de cor */
     transition: 1s;
 }
+/* chamando a primeira sessão  */
 .banco {
+    /* colocando cor degrade */
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    /* tamanho da sessão */
     padding: 180px;
+    /* tamanho da fonte */
     font-size: 30px;
     
 }
+/* chamando o titulo */
 .banco h1{
+    /* cor da linha */
     color: rgb(51, 50, 50);
+    /* espaçamento entre o titulo e o paragrafo */
     margin-bottom: 10px;
 }
+/* chamando o botao */
 .banco input{
+    /* tamanho do botao */
     padding: 12px;
+    /* espaçamento entre o texto e o botão */
     margin-top: 10px;
+    /* curvatura da borda */
     border-radius: 50px;
+    /* cor da borda */
     border-color: green;
+    /* cor da letra */
     color: green;
+    /* preenchimento da esquerda */
     padding-left: 40px;
+    /* preenchimento da direita */
     padding-right: 40px;
 }
+/* adicionando efeito ao passar o mouse no botão */
 .banco input:hover{
+    /* troca de cursor ao passar o mouse */
     cursor: pointer;
+    /* trocando a cor de fundo */
     background-color: green;
+    /* trocando a cor da borda  */
     border-color: white;
+    /* trocando a cor da letra */
     color: white;
+    /* adicionando transisao para todas as trocas */
     transition: 1s;
 }
+/* chamando a segunda sessão do site */
 .app{
+    /* cor de fundo da sessão */
     background-color: aliceblue;
+    /* tornando a sessão flexivel(lado a lado) */
     display: flex;
+    /* tamanho da sessão */
     padding: 250px;
+    /* alinhando itens */
     align-items: center;
 }
+/* chamando a imagem da sessão */
 .app img{
+    /* tamanho da sessão */
     width: 300px;
+    /* espaço entre o canto do site e a imagem */
     margin-left: 30px;
 }
+/* chamando o parágrafo da sessão */
 .app p{
+    /* tamanho da fonte */
     font-size: 30px;
 }
+/* chamando o botão */
 .app input{
+    /* tamanho do botão */
     padding: 10px;
+    /* espaço entre o parágrafo e o botão */
     margin-top: 20px;
+    /* curvatura do botão */
     border-radius: 50px;
+    /* cor da borda do botão */
     border-color: green;
+    /* cor da letra */
     color: green;
+    /* preenchimento da esquerda */
     padding-left: 40px;
+    /* preenchimento da direita */
     padding-right: 40px;
 }
+/* adicionando efeito no botão */
 .app input:hover{
+    /* trocando a cor de fundo */
     background-color: green;
+    /* trocando a cor da borda */
     border-color: white;
+    /* trocando a cor da letra */
     color: white;
+    /* adicionando transisao em totas as alteraçoes */
     transition: 1s;
+    /* trocando o cursor ao passar o mouse */
     cursor: pointer;
 }
+/* chamando a terceira sessão do site */
 .final {
+    /* tamanho da sessão */
     padding: 200px;
+    /* cor de fundo */
     background-color: aliceblue;
 }
+/* chamando uma parte do titulo  */
 .final h2 span{
-    font-size: 25px;
+    /* trocado o tamanho desta parte do titulo */
     font-size: 30px;
+    /* espacamento entre o texto e a imagem */
     margin-left: 35%;
 }
+/* chamando o parágrafo */
 .final p{
+    /* tamanho das letras */
     font-size: 20px;
+    /* cor das letras */
     color: gray;
+    /* espaçamento entre o parágrafo e o titulo */
     margin-top: 20px;
 }
+/* chamando o botão  */
 .final input{
+    /* tamanho do botão */
     padding: 10px;
+    /* preenchimento a esquerda */
     padding-left: 40px;
+    /* preenchimento a direita */
     padding-right: 40px;
+    /* curvatura da borda */
     border-radius: 50px;
+    /* espaçamento entre o botão e o texto */
     margin-top: 60px;
+    /* cor do botão */
     color: blue;
+    /* cor da borda do botão */
     border-color: blue;
 }
+/* adicionando efeito para o botão ao passar o mouse */
 .final input:hover{
+    /* trocando o cursor ao passar o mouse */
     cursor: pointer;
+    /* trocada a cor de fundo do botão  */
     background-color: blue;
+    /* trocada a cor da letra */
     color: white;
+    /* trocada a cor da borda do botão */
     border-color: white;
+    /* adicionada a transisão da troca de todos os efeitos */
     transition: 1s;
 }
+/* chamando a linha  */
 .final .line{
+    /* largura da linha */
     width: 79%;
+    /* espacamento entre a linha e o botão */
     margin-top: 27px;
+    /* espacamento da linha e a lateral esquerda do site */
     margin-left: 12%;
+    /* espacamento entre a linha e a imagem */
     margin-bottom: 30px;
 }
+/* chamando a imagem */
 .final img{
+    /* espacamento entre a lateral do site */
     margin-left: 16%;
+    /* lagura da imagem */
     width: 650px;
+
 }
+/* chamando a quarta sessão do site */
 .ultima {
+    /* tamanho da sessão */
     padding: 190px;
+    /* imagem de fundo da sessão */
     background-image: url(img/img\ cofre\ fundo.jpg);
+    /* posisão da imagem */
     background-position: center;
+    /* dizendo para imagem não se repetir */
     background-repeat: no-repeat;
+    /* deixando a imagem fixada */
     background-attachment: fixed;
+    /* deixando a imagem cobrir o site todo */
     background-size: cover;
+    /* deixando a sessão flexivel */
     display: flex;
+    /* tamanho da fonte do site */
     font-size: 20px;
+    /* alinhando os itens */
     align-items: center;
+    /* alinhando os textos */
     text-align: center;
+    /* cor da linha */
     color: white;
 }
+/* chamando a imagem  */
 .ultima img{
+    /* largura da imagem */
     width: 300px;
+    /* espacamento a direita da imagem */
     margin-right: 90px;
 }
+/* chamando uma parte do texto */
 .ultima h2 span{
+    /* trocando a cor desta parte */
     color: gold;
 }
+/* chamando o titulo */
 .ultima h2{
+    /* espacamento entre o titulo e o parágrafo */
     margin-bottom: 15px;
 }
+/* chamando o roda-pé */
 footer{
-    padding: 120px;
+    /* tamanho do roda-pé */
+    padding: 110px;
+    /* alinhando o texto */
     text-align: center;
+    /* alinhando os itens */
     align-items: center;
+    /* justificando o conteúdo */
     justify-content: space-between;
+    /* cor de fundo */
     background-color: rgb(24, 23, 23);
+    /* alinhando o texto */
     text-align: center;
-
 }
+/* chamando a imagem */
 footer div img {
+    /* largura da imagem */
     width: 300px;
 }
+/* chamando a identificaçao (id) da caixa (div) */
 footer #texto{
+    /* tornando os textos flexivel deixando lado a lado */
     display: flex;
+    /* espacamento entre os texto */
     margin-right: 30px;
+    /* justificando o conteudo para que fique um em cada lateral do site */
     justify-content: space-between;
+    /* alinhando o texto */
     text-align: center;
+    /* alinhando os itens */
     align-items: center;
+    /* espacamento entre os textos e a imagem */
     margin-top: 30px;
+    /* cor da letra */
     color: gray;
 }
+/* chamando a lista  */
 footer ul a li {
+    /* cor da letra */
     color: white;
 }
+/* adicionando efeito ao passar o mouse na lista */
 footer ul a li:hover{
+    /* trocada a cor da letra */
     color: red;
+    /* transisao ao passar o mouse  */
     transition: 0.7s;
 }
-
