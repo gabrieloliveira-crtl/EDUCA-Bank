@@ -212,10 +212,10 @@ header ul li:hover{
 .ultima {
     /* tamanho da sessão */
     padding: 190px;
-    /* imagem de fundo da sessão */
-    background-image: url(img/img\ cofre\ fundo.jpg);
+    /* imagem com cor de fundo da sessão */
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(img/img\ cofre\ fundo.jpg);
     /* posisão da imagem */
-    background-position: center;
+   background-position: center;
     /* dizendo para imagem não se repetir */
     background-repeat: no-repeat;
     /* deixando a imagem fixada */
@@ -227,7 +227,7 @@ header ul li:hover{
     /* tamanho da fonte do site */
     font-size: 20px;
     /* alinhando os itens */
-    align-items: center;
+    align-items: start;
     /* alinhando os textos */
     text-align: center;
     /* cor da linha */
