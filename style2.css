@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+.flex div{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex div:hover{
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+    background-color: blueviolet;
+}
