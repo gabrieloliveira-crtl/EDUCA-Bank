@@ -17,6 +17,6 @@
 .flex div:hover{
     width: 200px;
     height: 150px;
-    transition: 1s;
+    transition: 6s;
     background-color: blueviolet;
 }
