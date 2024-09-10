@@ -262,8 +262,6 @@ footer{
     justify-content: space-between;
     /* cor de fundo */
     background-color: rgb(24, 23, 23);
-    /* alinhando o texto */
-    text-align: center;
 }
 /* chamando a imagem */
 footer div img {
