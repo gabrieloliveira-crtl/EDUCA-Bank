@@ -51,7 +51,7 @@ header ul li:hover{
     /* cor da linha */
     color: rgb(51, 50, 50);
     /* espaçamento entre o titulo e o paragrafo */
-    margin-bottom: 10px;
+    margin-bottom: 10vh;
 }
 /* chamando o botao */
 .banco input{
@@ -90,7 +90,7 @@ header ul li:hover{
     /* tornando a sessão flexivel(lado a lado) */
     display: flex;
     /* tamanho da sessão */
-    padding: 250px;
+    padding: 100vh;
     /* alinhando itens */
     align-items: center;
 }
@@ -262,8 +262,6 @@ footer{
     justify-content: space-between;
     /* cor de fundo */
     background-color: rgb(24, 23, 23);
-    /* alinhando o texto */
-    text-align: center;
 }
 /* chamando a imagem */
 footer div img {
